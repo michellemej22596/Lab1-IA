@@ -119,3 +119,10 @@ print("\nMétrica de desempeño principal: F1-Score")
 print("Reporte de clasificación (incluye F1-Score):")
 print(classification_report(y_test, y_pred))
 
+# Guardar los conjuntos de datos en archivos para usarlos en otros scripts
+np.save("X_train.npy", X_train.values)
+np.save("X_test.npy", X_test.values)
+np.save("y_train.npy", y_train.values)
+np.save("y_test.npy", y_test.values)
+
+print("\nDatos preparados guardados como archivos para su uso externo.")
