@@ -29,9 +29,6 @@ Requisitos
 
 Este proyecto fue desarrollado en Python 3.11. Se requiere instalar las siguientes librerías:
 
-bash
-Copiar
-Editar
 pip install pandas numpy matplotlib scikit-learn imbalanced-learn kagglehub
 
 
